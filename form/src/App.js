@@ -6,7 +6,7 @@ import { BrowserRouter as Router,Switch,Route} from 'react-router-dom'
 function App() {
   return (
     <div className="App">
-    
+    {/* this is commen */}
       <Router>
         <Switch>
           <Route path="/" exact component={RegisterForm}/>
